@@ -11,6 +11,7 @@ class Pisto:
         self.hielera2 = "Mah, está vacía"
         return self.hielera2
 
+
 fiesta = Pisto("Cartón en hielera", "Unas cuantas frías")
 print(fiesta.pistear_2())
 print(fiesta.pistear_1()) 
