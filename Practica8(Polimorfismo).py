@@ -12,6 +12,7 @@ class Felino(Criatura):
 
 def reproducir_sonido(creatura):
     print(creatura.emitir_sonido())
+    
 
 animal1 = Canino()
 animal2 = Felino()
