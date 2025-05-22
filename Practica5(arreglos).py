@@ -23,6 +23,7 @@ class VectorNumpy:
             print("Posición inválida.")
 
 class ListaSimple:
+    
     def __init__(self):
         self.elementos = ['2', '4', '6']
 
