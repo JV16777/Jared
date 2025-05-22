@@ -2,6 +2,7 @@ from math import pi, tan
 
 class Poligono:
     
+    
     def calcular_area(longitud_lado, cantidad_lados):
         return (cantidad_lados * (longitud_lado ** 2)) / (4 * tan(pi / cantidad_lados))
 
