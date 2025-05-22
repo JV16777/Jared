@@ -25,6 +25,7 @@ class Vehiculo:
     def describir(self):
         return f"Vehículo de marca: {self.marca}"
 
+
 class Coche(Vehiculo):  
     def __init__(self, marca, modelo):
         super().__init__(marca)  
