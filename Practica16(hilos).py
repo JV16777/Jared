@@ -25,6 +25,7 @@ async def main():
         tarea("hilo3"))
 asyncio.run(main())
 
+
 hilo1 = hilo("hilo1", 2)
 hilo2 = hilo("hilo2", 4)
 hilo1.start()
