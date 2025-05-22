@@ -17,6 +17,7 @@ registro = {
     "edad": 31
 }
 
+
 print(tuple_np)
 print(tuple_list)
 print(set_np)
