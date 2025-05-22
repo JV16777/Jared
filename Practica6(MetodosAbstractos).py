@@ -20,6 +20,7 @@ class Disco(FormaGeometrica):
     def calcular_area(self):
         return math.pi * self.radio ** 2
 
+
 figura1 = RectanguloEquilatero(5)
 figura2 = Disco(3)
 
