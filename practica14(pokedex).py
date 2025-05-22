@@ -25,6 +25,7 @@ class GestorJson:
         with open(self.arch, "r") as f:
             data = self.leerJson()
             data[llave] = valor
+            
             self.escribirJson(data)
     def obtenerPokemon(self, pokemon):
         try:
