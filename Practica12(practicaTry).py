@@ -8,6 +8,7 @@ class Semana(Enum):
     VIERNES = "Viernes"
     SABADO = "Sábado"
     DOMINGO = "Domingo"
+    
 
 def es_dia_valido(nombre_dia):
     try:
