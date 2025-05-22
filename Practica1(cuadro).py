@@ -4,7 +4,7 @@ class Cuadro:
         return area
     def perimetroCuadro(lado):
         perim = lado * 4
-        return perim
+        return perin
 
 lado = float(input("Ingrese la medida del lado: "))
 print(f"Área del cuadro: {Cuadro.areaCuadro(lado)}")
